@@ -35,6 +35,8 @@ body {
 a img {
 	width: 6rem;
 	padding: .5rem;
+	transition-duration: 0.32s;
+	-webkit-transition-duration: 0.32s; /* Safari */
 }
 
 /* ================================= 
@@ -52,21 +54,23 @@ a img {
 		padding: 0 0 0 16px;
 	}
 
-	.nav-link, .nav-link:hover {
-		transition-duration: 0.4s;
-		-webkit-transition-duration: 0.4s; /* Safari */
+	.navbar-brand, .nav-link, .nav-link:hover {
+		transition-duration: 0.32s;
+		-webkit-transition-duration: 0.32s; /* Safari */
 	}
 
-	.nav-link {
+	.navbar-light .navbar-nav .nav-link {
 		border: 2px solid black;
-		color: #40424a;
-		padding: 10px 0;
+		padding: 10px 12px;
 		text-transform: uppercase;
 		text-decoration: none;
 	}
-
-	.nav-link:hover {
+	
+	.navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
 		color: #FF4C4C;
+	}
+	
+	.navbar-light .navbar-nav .nav-link:hover {
 		text-decoration: none;
 	}
 	
@@ -86,10 +90,17 @@ a img {
 		font-size: 1.2rem;
 	}
 	
+	a img:hover {
+		width: 6.5em;
+		transition-duration: 0.32s;
+		-webkit-transition-duration: 0.32s; /* Safari */
+	}
+	
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+
 	.social-media {
 		margin: 1rem 0;
 	}

@@ -1,0 +1,112 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+/* Color pallette:
+  Background Light-grey:	#f2f7f8;
+  Text Dark-grey:		#40424a;
+  Text Light-grey:		#808181;
+*/
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/*
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*/
+
+body {
+	background-color:#f2f7f8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+	font-family: 'Oswald', sans-serif;
+}
+
+.table td, .table th {
+	border-top: none;
+}
+
+/* ================================= 
+ Application Main Layout Styles
+==================================== */
+
+
+/* ================================= 
+ Footer Layout Styles
+==================================== */
+
+
+/* ================================= 
+ Media Queries
+==================================== */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	body {
+		min-height: 100vh;
+	}
+	
+	.navbar {
+		padding: 1rem;
+	}
+	
+	.nav-item {
+		padding: 0 0 0 16px;
+	}
+
+	.nav-link, .nav-link:hover {
+		transition-duration: 0.4s;
+		-webkit-transition-duration: 0.4s; /* Safari */
+	}
+
+	.nav-link {
+		border: 2px solid black;
+		color: #40424a;
+		padding: 10px 0;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+	.nav-link:hover {
+		color: #FF4C4C;
+		text-decoration: none;
+	}
+	
+	.hero-text h2 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 10rem;
+		font-style: bold;
+	}
+	
+	.hero-text p {
+		font-size: 2rem;
+	}
+	
+	.general-info h2 {
+		font-family: 'Oswald', sans-serif;
+		font-size: 3.8rem;
+		font-style: bold;
+	}
+	
+	.table {
+		font-size: 1.2rem;
+	}
+	
+	.my-image {
+		width: 50%;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }

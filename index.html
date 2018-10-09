@@ -7,8 +7,10 @@
   <!-- Latest compiled and minified Bootstrap CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/timeline.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
 	<nav class="navbar navbar-expand-sm navbar-light bg-faded">
@@ -29,7 +31,7 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="container-fluid animsition" data-animsition-in-class="fade-in-right" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-left" data-animsition-out-duration="800">
+	<div class="container-fluid">
 		<div class="row justify-content-center">
 			<div class="col-sm-11 col-lg-6">
 				<div class="hero-text">
@@ -41,16 +43,16 @@
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-							  <th scope="row">Date of Birth</th>
-							  <td>June 24, 1994</td>
-							</tr>
-							<tr>
 							  <th scope="row">Location</th>
 							  <td colspan="2">Blacksburg, VA, USA</td>
 							</tr>
 							<tr>
 							  <th scope="row">Email</th>
 							  <td colspan="2">haley.n.bengtson@gmail.com</td>
+							</tr>
+							<tr>
+							  <th scope="row">Choice of Drink</th>
+							  <td>Black Coffee</td>
 							</tr>
 						</tbody>
 					</table>
@@ -61,40 +63,131 @@
 			</div>
 		</div>
 		<div class="social-media row justify-content-center">
-			<div class="col-sm-2 col-lg-1">
+			<div class="col-3 col-sm-2 col-lg-1">
 				<!--Github-->
-				<a href="https://github.com/hnbvt24?tab=repositories" target="_blank"><img src="images/icons/if_github-social-media_765246.png" alt="Github Link"></a>
+				<a class="social-icon" href="https://github.com/hnbvt24?tab=repositories" target="_blank"><img src="images/icons/if_github-social-media_765246.png" alt="Github Link"></a>
 			</div>
-			<div class="col-sm-2 col-lg-1">
+			<div class="col-3 col-sm-2 col-lg-1">
 				<!--Linkedin-->
-				<a href="https://www.linkedin.com/in/haleybengtson/" target="_blank"><img src="images/icons/if_linkedin-social-media_765228.png" alt="Linkedin Link"></a>
+				<a class="social-icon" href="https://www.linkedin.com/in/haleybengtson/" target="_blank"><img src="images/icons/if_linkedin-social-media_765228.png" alt="Linkedin Link"></a>
 			</div>
-			<div class="col-sm-2 col-lg-1">
+			<div class="col-3 col-sm-2 col-lg-1">
 				<!--Pinterest-->
-				<a href="https://www.pinterest.com/halebales24/web-design/" target="_blank"><img src="images/icons/if_pinterest-social-media_765236.png" alt="Pinterest Link"></a>
+				<a class="social-icon" href="https://www.pinterest.com/halebales24/web-design/" target="_blank"><img src="images/icons/if_pinterest-social-media_765236.png" alt="Pinterest Link"></a>
 			</div>
-			<div class="col-sm-2 col-lg-1">
+			<div class="col-3 col-sm-2 col-lg-1">
 				<!--Twitter-->
-				<a href="https://twitter.com/haleybengtson" target="_blank"><img src="images/icons/if_twitter-social-media_765208.png" alt="Twitter Link"></a>
+				<a class="social-icon" href="https://twitter.com/haleybengtson" target="_blank"><img src="images/icons/if_twitter-social-media_765208.png" alt="Twitter Link"></a>
 			</div>
 		</div>
+		<div class="container">
+			<h3>Work Experience & Education</h3>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="main-timeline">
+						<a href="#" class="timeline">
+							<div class="timeline-icon"><i class="fa fa-code"></i></div>
+							<div class="timeline-content">
+								<h3 class="title">Web Application Developer // <em>'18 - Present</em></h3>
+								<p class="description">
+									Design, develop, test, and implement software systems using different Web technology and programming languages, including Coldfusion, HTML, CSS, Javascript.<br/>
+									Work independently and with team members in an agile and fast-paced development environment under the direction and supervision of a senior technical lead.<br/>
+									Write documentation of new or existing programs to ensure effective communication.<br/>
+									Solve complex technical problems of critical importance to the organization's technical direction.
+								</p>
+							</div>
+						</a>
+						<a href="#" class="timeline">
+							<div class="timeline-icon"><i class="fa fa-laptop"></i></div>
+							<div class="timeline-content">
+								<h3 class="title">Content Developer // <em>'16 - '18</em></h3>
+								<p class="description">
+									Develop Virtual Devices & Interactive Tutorials using HTML & XML.<br/>
+									Photograph and edit high-quality images of devices using DSLR cameras and Adobe Photoshop.<br/>
+									Improved the quality of all previously developed simulators by updating device images and XML to current standards.<br/>
+									Provide assistance to other developers on the team; answering questions and instructing better practices.<br/>
+									Training developers on the creation and implementation of device images in interactive tutorials and virtual devices.<br/>
+									Applied standardized documentation and procedures for future training and development of device images through the creation of video tutorials and written guidelines. 
+								</p>
+							</div>
+						</a>
+						<a href="#" class="timeline">
+							<div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
+							<div class="timeline-content">
+								<h3 class="title">BIT Undergrad at Virginia Tech // <em>'12 - '16</em></h3>
+								<p class="description">
+									Graduated from Virginia Tech in May of 2016 with a B.S. degree in Business Information Technology.<br/>
+									Involved in The Baptist Collegiate Ministries, of which I redesigned their current website.<br/>
+									Worked on an Independent Study with my Web DSS Professor, Dr. Zobel, in researching and developing methods for creating an E-Commerce website.
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row card-deck service-wrapper justify-content-center">
+			<div class="col-12">
+				<h3>Training & Certifications</h3>
+			</div>
+			
+			<div class="card col-12 col-sm-6 col-md-4">
+				<a class="certifications" href="https://generalassemb.ly/education/learn-user-experience-design-online">
+					<img class="card-img-top" src="https://cdn-images-1.medium.com/max/1200/1*HDIDs6Iq0bW-2qeYXqjp9w.png" alt="General Assembly - User Experience Circuit">
+					<!--<div class="card-body">
+					  <h4 class="card-title">User Experience Circuit Online</h4>
+					  <p class="card-text">6-week Course on UX Design</p>
+					</div>-->
+					  <div class="service-wrapper-inner">
+						<h2>UX Circuit</h2>
+						<div class="description">
+							<p>6-week Course on UX Design</p>
+						</div>
+						<a href="https://generalassemb.ly/"></a>
+					  </div>
+				</a>
+			</div>
+		
+		
+			<div class="card col-12 col-sm-6 col-md-4">
+				<a class="certifications" href="https://www.nngroup.com/training/las-vegas/">
+					<img class="card-img-top" src="https://media.nngroup.com/nng-uxc-badge.png" alt="Neilson Norman Group - User Experience Certification">
+					<!--<div class="card-body">
+					  <h4 class="card-title">User Experience Conference in Las Vegas, NV</h4>
+					  <p class="card-text">UX Certification - Specialty in Interaction Design</p>
+					</div>-->
+					  <div class="service-wrapper-inner">
+						<h2>UX Conference</h2>
+						<div class="description">
+							<p>UX Certification - Specialty in Interaction Design</p>
+						</div>
+						<a href="https://generalassemb.ly/"></a>
+					  </div>
+				</a>
+			</div>
+			
+		</div>
 	</div>
+		
 		<!-- TODO: Add the following features:
 				1. My name 						-- DONE
 				2. Background
 				3. Image of media
 				4. Social media					-- DONE
-				5. Related Work Experience
-				6. Education / Courses
+				5. Work Experience & Education	-- DONE
+				6. Certifications				
 				7. Portfolio
 				8. Skills
 				9. Reading materials
 				10. Contact me
 		-->
-	<div class="footer">
-		Copyright 2018
-		<a href='https://www.freepik.com/free-vector/9-social-networking_1080503.htm'>Icons Designed by Quinky</a>
-	</div>
+	<footer class="page-footer">
+		<div class="row">
+			<div class=" col-12 footer-copyright text-center">
+				Copyright 2018 <a href='https://www.freepik.com/free-vector/9-social-networking_1080503.htm'>Icons Designed by Quinky</a>
+			</div>
+		</div>
+	</footer>
 <!-- jQuery library -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <!-- Popper -->
